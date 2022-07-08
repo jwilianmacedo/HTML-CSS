@@ -1,0 +1,8 @@
+https://devkico.itexto.com.br/wp-content/uploads/2017/08/logotipo.png
+
+
+Para colocar imagens direto da internt, basta procurar e achar a imagem 
+abrir ela clicar com o botão direito e salvar link da imagem, depois copia 
+e cola o link no program. ex de link acima 
+obs: nao é viavel fazer esse tipo de açao, pois se estiver em internet 
+nao vai carregar a imagem. 
