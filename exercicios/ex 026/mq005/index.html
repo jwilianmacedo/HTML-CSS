@@ -8,8 +8,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>Meu Site</h1>
         <span id="burguer" class="material-icons" onclick="clickmenu()">menu</span>
@@ -32,8 +33,17 @@
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione amet eaque quisquam, est animi adipisci suscipit ipsum porro enim assumenda aliquam vel tenetur pariatur praesentium rem modi eligendi labore asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, animi corrupti sunt dolorem quaerat debitis enim consectetur vel rerum repellendus nisi similique. Animi, quae doloremque. At rem in beatae. Quod!</p>
         </article>
-     </main>
+    </main>
       <script>
+
+        function mudoutamanho() {
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'  
+            }
+        }
+
         function clickmenu(){
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
